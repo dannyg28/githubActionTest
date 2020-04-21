@@ -24,3 +24,8 @@ jobs:
     # Runs a script
     - name: runs a script
       run: ./ci/ci.sh
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: runs a script
+        run: ./ci/ci.sh
